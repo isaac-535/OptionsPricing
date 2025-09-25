@@ -1,0 +1,103 @@
+.Select-control {
+    background-color: #2b3e50 !important; /* matches SUPERHERO theme */
+    color: white !important;
+    border: 1px solid #444 !important;
+    border-radius: 6px !important;
+}
+
+/* Text inside the dropdown */
+.Select-value-label {
+    color: white !important;
+}
+
+/* The dropdown arrow */
+.Select-arrow {
+    border-color: white transparent transparent !important;
+}
+
+/* Dropdown menu background (when you click) */
+.Select-menu-outer {
+    background-color: #2b3e50 !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+/* Options in the menu */
+.VirtualizedSelectOption {
+    background-color: #2b3e50 !important;
+    color: white !important;
+}
+.VirtualizedSelectFocusedOption {
+    background-color: #1b2836 !important; /* highlight on hover */
+    color: white !important;
+}
+
+input.form-control {
+    background-color: #2b3e50 !important; /* superhero background */
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+.form-control:disabled {
+    background-color: #444 !important;  /* slightly lighter/duller */
+    color: #aaa !important;             /* greyed-out text */
+    opacity: 1 !important;              /* ensures it's visible */
+}
+
+/* ===== RangeSlider Custom Styling ===== */
+
+/* Track (the bar behind the handles) */
+.rc-slider-track {
+  background-color: #1f77b4; /* main accent color */
+}
+
+/* Rail (the unfilled portion of the track) */
+.rc-slider-rail {
+  background-color: #444;  /* muted dark gray */
+}
+
+/* Handles (the draggable knobs) */
+.rc-slider-handle {
+  border: solid 2px #1f77b4;
+  background-color: #222;   /* dark background */
+  box-shadow: none;
+}
+
+/* Handle when hovering or active */
+.rc-slider-handle:hover,
+.rc-slider-handle:active,
+.rc-slider-handle:focus {
+  border-color: #ffcc00;   /* highlight on hover */
+  box-shadow: 0 0 5px #ffcc00;
+}
+
+/* Dots (if you enable them) */
+.rc-slider-dot {
+  border: solid 2px #888;
+}
+
+.rc-slider-dot-active {
+  border-color: #1f77b4;
+}
+
+/* Marks (if you use them for labels) */
+.rc-slider-mark-text {
+  color: #aaa;
+}
+
+.rc-slider-mark-text-active {
+  color: #fff;
+}
+
+.custom-info-btn {
+    background-color: #1f77b4;   /* same as your line chart colour for consistency */
+    border: none;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.custom-info-btn:hover {
+    background-color: #135a85;   /* darker shade on hover */
+    color: #fff;
+}
