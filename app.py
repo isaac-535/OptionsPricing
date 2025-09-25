@@ -54,7 +54,6 @@ tab_selected_style = {
 
 external_stylesheets=[dbc.themes.SUPERHERO]
 app = Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
 app.title = "greeks_visualization_tool"
 
 # App layout
@@ -466,3 +465,5 @@ def toggle_offcanvas(n1, is_open):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+server = app.server
